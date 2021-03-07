@@ -1,0 +1,36 @@
+Diszkrét modellek alkalmazásai 12. gyakorlat
+
+
+
+1. Írjon függvényt, amely egy num természetes számra előállítja az
+őt reprezentáló Z2[x]-beli polinomot.
+
+2. Írjon Create_CRC_msg(genpoly, msgpoly) szignatúrával függvényt,
+amely a genpoly és msgpoly polinomból előállítja a CRC ellenőrzőösszeggel
+ellátott polinomot.
+
+3. Írjon IsReceivedMessageValid(genpoly, received) szignatúrával függvényt,
+amely eldönti, hogy a received CRC kóddal ellátott polinom átvitele közben
+történt-e hiba.
+
+4. Készítsen CRC ellenőrzőösszeggel ellátott polinomot a
+
+"""Fox Mulder: We wanted... to believe. We wanted to call out. On August 20th
+and September 5th, 1977, two spacecraft were launched from the Kennedy Space
+Flight Center, Florida. They were called Voyager. Each one carries a message.
+[...] A gold-plated record depicting images, music and sounds of our planet,
+arranged so that it may be understood if ever intercepted by a technologically
+mature extraterrestrial civilization. Thirteen years after its launch,
+Voyager One passed the orbital plane of Neptune and essentially leaving our solar
+system. Within that time, there were no further messages sent. Nor are any planned.
+We wanted to listen. On October 12th, 1992, NASA initiated the high-resolution
+microwave survey. A decade long-search by radio telescope, scanning ten million
+frequencies for any transmission by extraterrestrial intelligence. Less than one
+year later, first-term Nevada Senator R. B. successfully championed an amendment
+which terminated the project. I wanted to believe but the tools have been taken away.
+The X-Files have been shut down. They closed our eyes. Our voices have been
+silenced... our ears now deaf to the realms of extreme possibilities.
+[The X-Files, season 2, 'Little Green Men', 1994]"""
+
+sztringhez. A CRC polinomból állítsa elő az eredeti sztringet.
+

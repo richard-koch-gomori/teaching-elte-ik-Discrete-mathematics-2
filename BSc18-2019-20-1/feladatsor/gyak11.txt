@@ -1,0 +1,28 @@
+Diszkrét modellek alkalmazásai 11. gyakorlat
+
+
+
+1. Állítsa elő azt a valós együtthatós polinomot, amely átmegy a
+(1, 2), (-3, 6), (4, 6), (7, 9), (13, -4), (56, 52) pontokon.
+
+2. Írjon SSS_secret_parts_from_primenum_and_coeffs(num_of_people, secret, primenum, coeff)
+szignatúrával függvényt, amely a secret titkokból num_of_people db
+titokrészletet készít, ahol a használt prímszám primenum legyen, coeff
+pedig tartalmazza a polinom szabad tagján kívüli együtthatókat.
+
+3. Írjon SSS_compute_secret(primenum, secret_parts) szignatúrával
+függvényt, amely a secret_parts titokrészletekből előállítja a titkot,
+a használt prímszám pedig primenum.
+
+4. Írjon SSS_secret_parts(required_num_of_people, num_of_people, secret)
+szignatúrával függvényt, amely a secret titokból num_of_people db titokrészletet
+készít, ahol a minimum szükséges részletek száma required_num_of_people.
+A függvény véletlenszeren válasszon ki egy alkalmas polinomot és prímszámot.
+A prímszám legyen kellően távol a titoktól (a függvény adja eredményül,
+melyik prímszám lett kiválasztva).
+
+5. A "34fg__#Gfb34226fdsWWQl36lII234i<!%fGZjsdJFEBD77467effO+36{}__IOQsFF&363&ZzOO053"
+jelszóhoz készítsen titokrészleteket, amelyet 10 ember között osztunk szét úgy,
+hogy legalább 7 ember szükséges legyen az eredeti jelszó előállításához.
+Adott 7 titokrészletből állítsa elő az eredeti jelszót.
+

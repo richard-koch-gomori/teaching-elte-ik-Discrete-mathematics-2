@@ -1,0 +1,19 @@
+Diszkrét modellek alkalmazásai 7. gyakorlat
+
+
+
+1. Írjon függvényt, amely visszatér a paraméterben kapott egész szám
+önmagánál kisebb osztóinak összegével.
+
+2. Írjon függvényt, amely elõállítja egy egész szám osztóösszeg-sorozatát. A függvény
+egy kételemû listával térjen vissza: elsõ eleme az osztóösszeg-sorozat listában tárolva,
+a második elem egy rendezett pár: a pár elsõ komponense True, ha a sorozat terminál;
+False ha nem. Nem termináló sorozat esetén a pár második komponense legyen a sorozat
+periódusa.
+
+3. Keresse meg azt a legkisebb pozitív egész számot, amelynek véges osztóösszeg-sorozatában
+elõfordul a 179931895322 szám. Írja ki ezt a számot, a sorozat hosszát és a sorozatot is.
+
+4. Írjon függvényt, amely a paraméterként kapott egész szám osztóösszeg-sorozata alapján
+eldönti, hogy a szám barátságos-e.
+

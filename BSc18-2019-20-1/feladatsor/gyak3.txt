@@ -1,0 +1,33 @@
+Diszkrét modellek alkalmazásai 3. gyakorlat
+
+
+
+1. Egy X halmazon értelmezett binér relációt formálisan X-beli rendezett párok
+halmazaként szoktunk definiálni. Írjunk eljárásokat, melyek egy ilyen formában
+adott relációról megmondják, hogy az reflexív ill. tranzitív-e (két külön eljárást).
+A bemenetük az X halmaz és a reláció. Tehát pl.
+Is_Reflexive({1, 2, 3, 4}, [[1, 1], [2, 2], [3, 3], [4, 4]]) válasza legyen True,
+Is_Transitive({1, 2, 3, 4}, [[1, 2], [2, 3], [1, 4], [2, 2]]) pedig False.
+
+2. Írjon függvényt, amely megadja a paraméterként kapott reláció értelmezési
+tartományát.
+
+3. Írjon függvényt, amely megadja egy paraméterként kapott reláció adott halmaz
+szerinti képét.
+
+4. Írjon függvényt, amely visszatér a paraméterként kapott ekvivalenciareláció
+ekvivalenciaosztályaival.
+
+5. Írjon függvényt, amely paraméterként kapott függvény (a megadási módja az
+elõzõ feladatokban is használt) adott helyen vett helyettesítési értékével
+tér vissza.
+
+6. Írjon függvényt, amely paraméterként kapott függvényrõl (a megadási módja az
+elõzõ feladatokban is használt) eldönti, hogy injektív-e.
+
+
+Dimat1-bõl programozási feladatban kérdezhetõ: halmaz, halmazrendszer, reláció,
+értelmezési tartomány, értékkészlet, leszûkítés, elem/halmaz képe, elem/halmaz
+inverz képe, reflexív, szimmetrikus, tranzitív, antiszimmetrikus, ekvivalenciaosztály,
+függvény, injektív, szürjektív
+

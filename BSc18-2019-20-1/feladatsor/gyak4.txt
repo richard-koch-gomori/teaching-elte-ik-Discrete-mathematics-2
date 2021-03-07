@@ -1,0 +1,33 @@
+Diszkrét modellek alkalmazásai 4. gyakorlat
+
+
+
+1. Írjon függvényt, amely eldönti, hogy a paramétere felbonthatatlan-e.
+
+2. Írjon függvényt, amely egy adott N-hez megkonstruálja a legalább N hosszú,
+csupa összetett számokat tartalmazó intervallumot.
+
+3. Írjon függvényt a páros Goldbach-sejtés bemutatására. A páros Goldbach-sejtés
+szerint minden 2-nél nagyobb páros szám felírható két prímszám összegeként.
+Ha a függvény argumentuma nem megfelelõ, a függvény dobjon ValueError kivételt.
+
+4. Számolja meg, hány prím van a [0;n] intervallumban.
+
+5. Olvasson be a billentyûzetrõl egy x egész számot. Írjon programot, amely kiírja
+az összes barátságos szám(párt) x alatt. Futtassa programját x = 100 értékkel.
+
+6. Olvasson be a billentyûzetrõl egy x egész számot. Írjon programot, amely kiírja
+az összes tökéletes számot x alatt. Futtassa programját x = 10000 értékkel.
+
+7. Írjon f függvényt iteratív és rekurzív megoldással, amely visszatér a paraméter
+számjegyeinek köbösszegével (a számjegyek köbeinek összegével). Írja ki a képernyõre
+az f(n) = n egyenlet legfeljebb 4-jegyû megoldásait.
+
+8. Készítsünk eljárásokat, melyek az ún. 3n+1 problámát viszgálják. Legyen f az a
+pozitív egész számokon értelmezett függvény, mely páros n-re n/2, páratlan n-re 3n+1
+értéket vesz fel. Egy sejtés szerint ezt kellõen sokszor ismételten alkalmazva, bármilyen
+kiindulási n-re lesz olyan, hogy 1-et kapunk (pl. 7-22-11-34-17-52-26-13-40-20-10-5-16-8-4-2-1).
+Írjunk egy olyan eljárást, mely meghatározza, hogy a paraméterként megadott n-re hány lépés
+múlva következik ez be (pl. 7-re 16 lépés kell). Egy másik eljárással pedig számoljuk meg,
+hogy mindeközben hány páros szám volt a sorozatban (a kiindulási értékkel együtt).
+

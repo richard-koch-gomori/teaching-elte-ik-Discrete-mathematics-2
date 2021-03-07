@@ -1,0 +1,39 @@
+Diszkrét modellek alkalmazásai 10. gyakorlat
+
+
+
+1. Keresse meg a
+
+x^134 - 134*x^121 + x^97 - 56*x^87 + 677*x^51 - x^38 + x^24 - 675*x^17 + x^10 - 5*x^7 +  8*x^3 - x^2 - x + 1
+
+polinom valós és komplex gyökeit.
+
+2. Keresse meg a x^4 - 6*x^3 + 454*x - 1281 polinom gyökeit.
+
+3. Keresse meg a x^4 - (3 - 4*I)*x^3 + 454*x - 1281 polinom gyökeit.
+
+4. Készítsen olyan valós együtthatós polinomot, amelynek gyökei: 3; 3; 12.5; -45; 12; -2
+
+5. Készítsen függvényt, amely paraméterként fogad egy poly polinomot, és eredményül
+ad egy olyan polinomot, amelynek ugyanazok a valós gyökei mint poly-nak, de
+nincsenek komplex gyökei.
+
+6. Állítsuk elő azt az n-edfokú polinomot, amelynek együtthatói n, (n-1), ..., 1, 0
+
+7. Állítsunk elő azt az n-edfokú polinomot, amelynek gyökei 1, 2, ..., n
+
+8. Ábrázolja a x^5 - 5*x^4 - 80*x^3 + 60*x^2 + 2384*x + 5760 polinomot valamint a
+komplex gyökeit a Gauss-számsíkon.
+
+9. Készítsen függvényt, amely előállít egy n-edfokú polinomot, amelynek együtthatóit
+véletlenszerűen választja meg a {-1, 0, +1} halmazból, majd ábrázolja a komplex
+gyökeit a Gauss-számsíkon.
+
+10. Készítsen függvényt, amely egy véletlen, valós együtthatós, n-edfokú polinom
+gyökeit ábrázolja a Gauss-számsíkon.
+
+11. Készítsen függvényt, amely paraméterként fogad p, q polinomokat. Ábrázolja egy
+közös koordináta-rendszerben a p, q, lnko(p, q) polinomokat.
+
+PlotGcd(x^4 - 5*x^2 + 4, x^4 - 2*x^3 - 2*x^2 + 8*x - 8)
+
