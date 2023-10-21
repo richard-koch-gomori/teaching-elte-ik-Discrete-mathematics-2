@@ -18,6 +18,6 @@ Mutassa be a függvények működését az `árvíztűrő tükörfúrógép` szt
 
 A `JYVQVDUQEWQRDQVDXBZIYQIVDJVDTV` ciphertext-et ROTn eljárással titkosították. Törje fel a titkosítást: mi volt az eredeti plaintext?
 
-
+TODO
 
 
