@@ -11,6 +11,16 @@ igény esetén; email-ben/személyesen lehet egyeztetni konzultációt bármikor
 
 ## zárthelyi dolgozatok
 
-TODO
+### 1. zh
+
+~~~
+2023. november 21. (kedd) 18:00-20:00
+ELTE Déli Tömb, Informatikai Kari Nagy Számítógépes Laboratórium (Lovarda)
+~~~
+
+### 2. zh
+
+### pótzh
+
 
 
