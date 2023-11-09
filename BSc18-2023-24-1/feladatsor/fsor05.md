@@ -30,6 +30,18 @@ Implementálja a Vigenère cipher-t.
 
 Implemenálja a szorzás/osztáson alapuló aszimmetrikus titkosítást `Asym_encrypt(plain, pub_key)` és `Asym_decrypt(cipher, priv_key)` függvényekben!
 
+## 7. feladat
 
+Írjon `RSA_encrypt()` néven függvényt, amely a titkosítandó sztringet, valamint egy RSA publikus kulcsot (`(n, e)` alakú rendezett pár) kap paraméterként. A függvény a kapott sztringet reprezentálja természetes számként, a tanult RSA eljárással titkosítsa, majd a kapott cipher-rel tér vissza.
+
+Írjon `RSA_decrypt()` néven függvényt, amely a titkosított üzenetet (cipher-t), egy RSA privát kulcsot valamint egy modulust kap paraméterként. A függvény a tanult RSA eljárással fejtse vissza az eredeti sztringet, amelyet visszatérési értékként juttasson vissza a hívóhoz.
+
+Az `RSA_encrypt()` függvénnyel titkosítsa a `This is a plaintext` sztringet. Próbálja ki, hogy a kapott cipher-rel hívva az `RSA_decrypt()` függvény visszatér-e az eredeti sztringgel. Egy megfelelő RSA kulcs pár:
+
+~~~
+publikus kulcs = (2737761589089748594790007149346373275182007419519011, 5)
+
+privát kulcs = 3832866224725648032706009862578776439560195767108789
+~~~
 
 
