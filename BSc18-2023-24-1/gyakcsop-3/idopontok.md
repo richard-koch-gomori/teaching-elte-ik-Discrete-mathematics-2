@@ -20,7 +20,16 @@ ELTE Déli Tömb, Informatikai Kari Nagy Számítógépes Laboratórium (Lovarda
 
 ### 2. zh
 
+~~~
+2024. január 3. (szerda) 18:00-20:00
+ELTE Déli Tömb, Informatikai Kari Nagy Számítógépes Laboratórium (Lovarda)
+~~~
+
 ### pótzh
 
+~~~
+2024. január 8. (hétfő) 17:00-19:00
+ELTE Déli Tömb, Informatikai Kari Nagy Számítógépes Laboratórium (Lovarda)
+~~~
 
 
