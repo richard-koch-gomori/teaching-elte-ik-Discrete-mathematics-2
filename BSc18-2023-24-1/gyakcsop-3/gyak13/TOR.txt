@@ -1,0 +1,30 @@
+
+feladat:
+
+Tekintsük a következő The Onion Router (TOR) hálózatot, ahol 5 kliens (résztvevő) van,
+jelöljük őket az 1, 2, 3, 4, 5 számokkal. Az egyes kliensek RSA publikus kulcsai minden
+kliens számára ismert: e1, e2, e3, e4, e5.
+
+Az 1-es kliens szeretné elküldeni az m = "Süllyed a harossz" üzenetet az 5-ös kliensnek
+anonim módon a következő útvonalon: 1 -> 2 -> 3 -> 4 -> 5. A legegyszerűbb esetet használjuk,
+amikor nincsenek felesleges kerülőutak. Írja fel az 1-es kliens titkosított üzenetét előállító
+lépéseket! A végeredményt nem kérem kiszámolni.
+
+megoldás:
+
+m = "Süllyed a harossz"
+5 résztvevő, publikus kulcsok: e1, e2, e3, e4, e5
+
+m45 := (címzett=5, rsa_encrypt(m, e5))
+m34 := (címzett=4, rsa_encrypt(m45, e4))
+m23 := (címzett=3, rsa_encrypt(m34, e3))
+m12 := (címzett=2, rsa_encrypt(m23, e2))
+
+Feladó:
+c := (címzett=2, rsa_encrypt((címzett=3, rsa_encrypt((címzett=4, rsa_encrypt((címzett=5, rsa_encrypt(m, e5)), e4)), e3)), e2))
+
+
+The Onion Router (TOR)
+
+
+
