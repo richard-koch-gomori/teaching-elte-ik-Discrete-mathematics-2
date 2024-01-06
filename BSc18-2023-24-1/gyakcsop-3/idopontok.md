@@ -28,8 +28,8 @@ ELTE Déli Tömb, Informatikai Kari Nagy Számítógépes Laboratórium (Lovarda
 ### pótzh
 
 ~~~
-2024. január 8. (hétfő) 17:00-19:00
-ELTE Déli Tömb, Informatikai Kari Nagy Számítógépes Laboratórium (Lovarda)
+2024. január 16. (kedd) 16:00-18:00
+ELTE Déli Tömb, 2-218 Komputer Algebra Labor
 ~~~
 
 
